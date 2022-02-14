@@ -1,5 +1,5 @@
 {
-  "name": "mini-gen",
+  "name": "sivgen",
   "version": "0.0.1",
   "description": "minimal and simple random value generator.",
   "main": "lib/index.js",
