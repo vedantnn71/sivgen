@@ -24,5 +24,6 @@
   "homepage": "https://github.com/vedantnn71/mini-gen",
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "dependencies": {}
 }
