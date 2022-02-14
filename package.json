@@ -19,9 +19,9 @@
     "typescript": "^4.5.5"
   },
   "bugs": {
-    "url": "https://github.com/vedantnn71/mini-gen/issues"
+    "url": "https://github.com/vedantnn71/sivgen/issues"
   },
-  "homepage": "https://github.com/vedantnn71/mini-gen",
+  "homepage": "https://github.com/vedantnn71/sivgen",
   "files": [
     "lib/**/*"
   ],
