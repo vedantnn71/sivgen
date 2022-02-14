@@ -13,7 +13,7 @@ const char = (length: number, excludeNumbers?: boolean): string => {
   let generateChar = crypto.randomBytes(length).toString("hex");
 
   if (excludeNumbers) {
-    generateChar.replace("/\d+/g", "");
+    generateChar = generateChar.replace(/[0-9]/g, "a")
   }
 
   return generateChar;
