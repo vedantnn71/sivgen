@@ -21,5 +21,5 @@ declare const emoji: (excludeEmoji?: string) => string;
  * @param exclude (optional) Number/integer to exclude.
  * @param decimals (optional) Format a number using fixed-point notation.
  */
-declare const float: (max: number, exclude?: number, decimals?: number) => number;
+declare const float: (max: number, exclude?: number, decimals?: number) => number | string;
 export { integer, char, emoji, float };

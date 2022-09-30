@@ -49,7 +49,7 @@ const emoji = (excludeEmoji?: string): string => {
  * @param decimals (optional) Format a number using fixed-point notation.
  */
 
-const float = (max: number, exclude?: number, decimals?: number): number => {
+const float = (max: number, exclude?: number, decimals?: number): number | string => {
   let generateFloat: string | number | any = (Math.random() * max).toFixed(decimals)
   if (generateFloat === exclude) {
     generateFloat++
