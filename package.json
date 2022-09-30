@@ -24,6 +24,5 @@
   "homepage": "https://github.com/vedantnn71/sivgen",
   "files": [
     "lib/**/*"
-  ],
-  "dependencies": {}
+  ]
 }

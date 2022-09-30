@@ -43,14 +43,14 @@ const emoji = (excludeEmoji?: string): string => {
 }
 
 /**
- * Returns a random generated integer/number.
+ * Returns a random generated float.
  * @param max The maximum number to include in returned generated float.
+ * @param decimal Format a number using fixed-point notation.
  * @param exclude (optional) Number/integer to exclude.
- * @param decimals (optional) Format a number using fixed-point notation.
  */
 
-const float = (max: number, exclude?: number, decimals?: number): number | string => {
-  let generateFloat: string | number | any = (Math.random() * max).toFixed(decimals)
+const float = (max: number, decimal: number, exclude?: number): number | string => {
+  let generateFloat: string | number | any = (Math.random() * max).toFixed(decimal)
   if (generateFloat === exclude) {
     generateFloat++
   };
