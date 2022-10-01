@@ -15,4 +15,11 @@ declare const char: (length: number, excludeNumbers?: boolean | undefined) => st
  * @param excludeEmoji (optional) Emoji to exclude.
 */
 declare const emoji: (excludeEmoji?: string | undefined) => string;
-export { integer, char, emoji };
+/**
+ * Returns a random generated float.
+ * @param max The maximum number to include in returned generated float.
+ * @param decimal Format a number using fixed-point notation.
+ * @param exclude (optional) Number/integer to exclude.
+ */
+declare const float: (max: number, decimal: number, exclude?: number | undefined) => number | string;
+export { integer, char, emoji, float };
